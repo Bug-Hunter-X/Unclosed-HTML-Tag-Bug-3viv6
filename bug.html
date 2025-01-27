@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>Uncommon HTML Bug</title></head><body> <p>This is a paragraph.</p> <div id="myDiv"></div> <script> function myFunction() {  document.getElementById("myDiv").innerHTML = "Hello World!";  //this is the bug line, there is no closing tag for the html document. } myFunction(); </script> </body> </html>
